@@ -9,20 +9,9 @@
 #myVideo {
   position: absolute;
   width: 100vw;
-  height: calc(95vh - var(--navbar-height));
+  height: calc(100vh - var(--navbar-height));
   object-fit: cover;
-  z-index: -1;
-}
-/* 
-.lp-items {
-  z-index: 99;
-} */
-
-.cta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* z-index: 1; */
+  /* z-index: -1; */
 }
 
 .lp p {
@@ -54,8 +43,14 @@ button:hover {
   cursor: pointer;
 }
 
-/* .vl-1 {
-  border-right: 10px solid blue;
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vl-1 {
+  border-right: 10px solid white;
   height: 100px;
-  opacity: 100%;
-} */
+  opacity: 40%;
+}
